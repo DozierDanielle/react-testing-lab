@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 describe('AddTransactions placeholder', () => {
   it('runs a basic check', () => {
-    expect('abc').toContain('a')
+    expect([1,2,3].includes(3)).toBe(true)
   })
 })
